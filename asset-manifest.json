@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/3d-typography/static/css/main.964fdded.css",
+    "main.js": "/3d-typography/static/js/main.d67837a3.js",
+    "static/js/787.241a3e79.chunk.js": "/3d-typography/static/js/787.241a3e79.chunk.js",
+    "static/media/text.glb": "/3d-typography/static/media/text.1c968e1d4c3a95c70e54.glb",
+    "index.html": "/3d-typography/index.html",
+    "main.964fdded.css.map": "/3d-typography/static/css/main.964fdded.css.map",
+    "main.d67837a3.js.map": "/3d-typography/static/js/main.d67837a3.js.map",
+    "787.241a3e79.chunk.js.map": "/3d-typography/static/js/787.241a3e79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.d67837a3.js"
+  ]
+}
