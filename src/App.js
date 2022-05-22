@@ -57,7 +57,7 @@ function App() {
           scale={2}
           rotation={[Math.PI/2,0,-0.2]}
           // position={[-0.5, -0.2, 0]}
-          position={[-0.18, -0.1, 0]}
+          position={[-0.18, -0.07, 0]}
           >
 
         <mesh geometry={nodes.Curve007.geometry} material={nodes.Curve007.material}>
@@ -125,7 +125,7 @@ function App() {
           // minAzimuthAngle={-Math.PI * 0.1}
           // maxAzimuthAngle={Math.PI * 0.1}
           autoRotate="true"
-        autoRotateSpeed={1}
+        autoRotateSpeed={5}
           />
          {/* <PerspectiveCamera position={[-20, 0, -20]} /> */} 
 
