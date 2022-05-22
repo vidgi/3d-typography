@@ -7,7 +7,7 @@ import { Canvas, useLoader, useFrame } from "react-three-fiber";
 import { Image, Environment, Loader,FirstPersonControls,PointerLockControls, Html, OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import { Leva, useControls } from 'leva'
 import { useGLTF, Sky, Stars, MeshReflectorMaterial, MeshDistortMaterial} from '@react-three/drei'
-import typeexample from './text.glb'
+import typeexample from './text2.glb'
 
 
 function Zoom() {
@@ -41,7 +41,7 @@ function App() {
 
        <Suspense fallback={null}>
        
-       <ambientLight />
+       {/* <ambientLight /> */}
        
         <pointLight position={[10, 10, 10]} />
         <pointLight position={[-10, 10, 10]} /> 
@@ -54,15 +54,15 @@ function App() {
 
         <group 
           transform 
-          scale={5}
+          scale={2}
           rotation={[Math.PI/2,0,-0.2]}
-          position={[-0.5, -0.2, 0]}
-          // position={[-0.3, 0, 0]}
+          // position={[-0.5, -0.2, 0]}
+          position={[-0.18, -0.1, 0]}
           >
 
-        <mesh geometry={nodes.Curve008.geometry} material={nodes.Curve008.material}>
-        <meshStandardMaterial attach="material" wireframe={false} color={"#049ef4"} flatShading={false} roughness={0.25} metalness={0.99}/>
-        {/* <MeshDistortMaterial distort={1} speed={0.05} /> */}
+        <mesh geometry={nodes.Curve007.geometry} material={nodes.Curve007.material}>
+        <meshStandardMaterial attach="material" wireframe={false} color={"#049ef4"} flatShading={true} roughness={0.25} metalness={0.99}/>
+        {/* <MeshDistortMaterial distort={0.8} speed={2} /> */}
         </mesh>
         {/* <Model /> */}
 
@@ -125,7 +125,7 @@ function App() {
           // minAzimuthAngle={-Math.PI * 0.1}
           // maxAzimuthAngle={Math.PI * 0.1}
           autoRotate="true"
-        autoRotateSpeed={5}
+        autoRotateSpeed={1}
           />
          {/* <PerspectiveCamera position={[-20, 0, -20]} /> */} 
 
